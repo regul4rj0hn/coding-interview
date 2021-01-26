@@ -1,9 +1,9 @@
 using System;
 
-/*
+/**
     Time: O(n.log(n)) - For sorting
     Space: O(1) - No additional structures
-*/
+**/
 public class Program {
     public static int[] TwoNumberSum (int[] array, int targetSum) {
         Array.Sort (array);

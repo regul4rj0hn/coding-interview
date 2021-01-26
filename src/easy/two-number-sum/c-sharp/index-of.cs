@@ -1,9 +1,9 @@
 using System;
 
-/*
+/**
     Time: O(n^2) - IndexOf() is also O(n) this is just a bit cleaner
     Space: O(1) - No additional structures
-*/
+**/
 public class Program {
     public static int[] TwoNumberSum (int[] array, int targetSum) {
         for (int i = 0; i < array.Length; i++) {

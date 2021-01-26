@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 
-/*
+/**
     Time: O(n) - Search once, Hash search is constant.
     Space: O(n) - For the HashMap
-*/
+**/
 public class Program {
     public static int[] TwoNumberSum (int[] array, int targetSum) {
         var store = new HashSet<int> ();
