@@ -10,7 +10,7 @@ Number of ways = ---------
 
 On top of that, we use a static array to store all the valid factorial results for 32bit integers, so we can retrieve those in constant time - as opposed to calculating it each time.
 
-Time : O(1) - The input does not matter, we are performing all constant times operations
+Time : O(1) - The input does not matter, we are performing all constant-time operations
 Space: O(1) - No extra space (the factorial array is constant and independent of the input)
 */
 public class Program
